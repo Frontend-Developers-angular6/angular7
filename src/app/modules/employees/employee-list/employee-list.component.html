@@ -1,0 +1,17 @@
+<div>
+  <tr *ngFor="let emp of allEmployee">
+    <!-- <td>{{emp.firstName}}</td>
+    <td>{{emp.address}}</td>
+    <td>{{emp.designation}}</td> -->
+    <td>
+      <div class="btn" (click)="openDialog(emp)" (click)="edit(emp)">
+        <i class="fa fa-edit"></i>
+      </div>
+    </td>
+    <td>
+      <a class="btn text-danger" (click)="deleteEmployee(emp.id)">
+        <i class="fa fa-trash"></i>
+      </a>
+    </td>
+  </tr>
+</div>

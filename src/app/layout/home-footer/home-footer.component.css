@@ -1,0 +1,16 @@
+.Container{
+    background-color:rgb(70, 67, 67);
+    border-block-color: black;
+    height: 200px;
+    color:black;
+    font-weight: bold;
+    float :center;
+    text-align: center;
+}
+
+.pull-center{
+    margin-top: 20%;
+}
+#first{
+    padding-top:7%;
+}

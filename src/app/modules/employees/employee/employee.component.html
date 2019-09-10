@@ -1,0 +1,91 @@
+<div class="container">
+
+<!-- 
+  <div class="bg-img">
+    <div class="container">
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand">Demo App</a>
+        </div>
+        <div class="top-right">
+        <ul class="nav navbar-nav navbar-right">
+            <li><a routerLink="/home">Home</a></li>
+            <li><a routerLink="/about">About Us</a></li>
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">Clients</a></li>
+            <li><a href="#">Employers</a></li>
+            <li><a routerLink="/contact">Contact Us</a></li>
+        </ul>
+    </div>
+  </div>
+  </nav>
+  </div>
+  </div> -->
+
+
+  <nav class=" navbar navbar-brand navbar-right">
+  <h4>Register</h4>
+</nav>
+
+<div class="row">
+<div class="col-md-4 form-group">
+
+</div>
+ 
+<div class="col-md-8 form-group">
+    <form>
+      <div class="row">
+  <div class="col-md-6 form-group">
+    <input placeholder="First Name" class="form-control" [(ngModel)] = "emploeeService.currentEmployee.firstName">
+  </div>
+
+  <div class="col-md-6 form-group">
+    <input placeholder="Last Name" class="form-control" [(ngModel)] = "emploeeService.currentEmployee.lastName">
+  </div>
+</div>
+
+  <div class="col-md-12 form-group">
+    <input placeholder="Email" class="form-control" [(ngModel)] = "emploeeService.currentEmployee.email">
+  </div>
+
+ <div class="col-md-12 form-group">
+    <input placeholder="Contact" class="form-control" [(ngModel)] = "emploeeService.currentEmployee.contact">
+  </div>
+
+    <div class="col-md-12 form-group">
+      <select placeholder="State" class="form-control" [(ngModel)] = "emploeeService.currentEmployee.state">
+        <option value="karnataka">Karnataka</option>
+        <option value="tamilnadu">Tamilnadu</option>
+        <option value="mumbai">Mumbai</option>
+        <option value="mp">MP</option>
+        </select>
+    </div>
+
+    <div class="col-md-12 form-group">
+      <select placeholder="Country" class="form-control" [(ngModel)] = "emploeeService.currentEmployee.Country">
+        <option value="india">India</option>
+        <option value="china">China</option>
+        <option value="Japan">Japan</option>
+        <option value="srilanka">Srilanka</option>
+        </select>
+    </div>
+
+  <div class="col-md-12 form-group">
+    <input placeholder="Address" class="form-control" [(ngModel)] = "emploeeService.currentEmployee.address">
+  </div>
+<div class="row">
+  <div class="col-md-4 form-group">
+    <button class="btn btn-primary btn-block btn-larg" routerLink="home" (click)="cancel()"><i class="fa fa-retweet"></i>Cancel</button>
+    <!-- <button class="btn btn-primary btn-block btn-larg" (click)="clear()"><i class="fa fa-retweet"></i>CLEAR</button> -->
+  </div>
+
+  <div class="col-md-8 form-group">
+      <button class="btn btn-success btn-block btn-larg" routerLink="save" (click)="createAndupdate(emploeeService.currentEmployee)"><i class="fa fa-save"></i>SAVE</button>
+    </div>
+</div>
+</form>
+</div>
+</div>
+
+</div>

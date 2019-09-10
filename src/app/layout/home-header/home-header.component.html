@@ -1,0 +1,21 @@
+<mat-toolbar class="header">
+  <mat-toolbar-row>
+    <a class="navbar-brand" routerLink="home">
+      <img src="../../assets/images/LETlogo.png" alt="DEMO">
+    </a>
+    <span class="spacer"></span>
+    <!-- <button mat-button class="headerButtons" (click)="openDialog()">Login & SignUp</button> -->
+    <button mat-button class="headerButtons" [matMenuTriggerFor]="menu">Menu</button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item>
+        <mat-icon>call</mat-icon>24/7 Customer Service
+      </button>
+      <button mat-menu-item>
+        <mat-icon>get_app</mat-icon> Download App
+      </button>
+    </mat-menu>
+    <!-- <mat-icon class="menuIcon" aria-hidden="false">add_shopping_cart</mat-icon> -->
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<router-outlet></router-outlet>

@@ -1,0 +1,88 @@
+.bannerContainer{
+    background: url("../../assets/images/iimmgg.jpg");
+    grid-area: showcase;
+    min-height: 550px;
+    opacity: 0.5;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100%; */
+    padding: 1rem;
+    display: contain;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    box-shadow: var(--shadow);
+    background-repeat: no-repeat;
+}
+.aa{
+
+    color: rgb(245, 237, 237);
+}
+
+.headerButtons{
+    margin-left: 46%;
+    margin-top: 3%;
+    color:white;
+    opacity: 1;
+    background-color: blue;
+}
+
+.close
+{
+  z-index:10;
+  margin-left:-3rem;
+  margin-right:1rem;
+}
+
+.right{
+    margin-left: 38%;
+    margin-top: 20%;
+
+}
+
+
+#search input[type=search].filled
+{
+  width: 600px;
+  /* padding-left: 32px; */
+  color: #4a83c0;
+  background-color: #fff;
+  cursor: auto;
+
+}
+
+.btn-search{
+  padding-top: 0%;
+  padding-left: 15%;
+
+}
+
+.first{
+  padding-left: 42%;
+  margin-top: 15%;
+  color: rgb(189, 177, 177);
+}
+
+.second{
+  padding-left: 30%;
+}
+
+.third{
+  margin-top: 8%;
+  padding-left: 30%;
+}
+
+.fourth{
+  padding-left: 37%;
+}
+
+.about-btn{
+  padding-top: 10%;
+  padding-left: 42%;
+}
+
+.search{
+  padding-top: 2%;
+  margin-left: 8%;
+}

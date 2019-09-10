@@ -1,0 +1,24 @@
+.header{
+    background:linear-gradient(120deg, #00e4d0, #5983e8);
+ }
+ .menuIcon {
+     padding: 0 14px;
+   }
+   
+ /* .spacer {
+     flex: 1 1 auto;
+   } */
+ .headerButtons{
+     color:white;
+     font-weight: bold;
+ }
+ .avatar{
+   vertical-align: middle;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+ }
+
+ .colour{
+   background-color: #5983e8;
+ }
